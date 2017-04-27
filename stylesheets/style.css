@@ -3648,6 +3648,7 @@ tbody.collapse.in {
   right: 0;
   left: auto;
 }
+
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
@@ -4041,6 +4042,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   overflow: hidden;
   background-color: #e5e5e5;
 }
+
 .nav > li > a > img {
   max-width: none;
 }
@@ -4521,11 +4523,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-right: 0;
   }
 }
+.nav {text-transform: capitalize;}
 .navbar-default {
-  background-color: #2c3e50;
+  background-color: #303030;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
+  text-transform: capitalize;
   color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
@@ -7056,3 +7060,16 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+div.logo {
+    position: relative;
+    left:30px;
+   
+} 
+div.forus {
+  position: absolute;
+    top: 40%;
+    right:25%;
+    width: 50%;
+    height: 100px;
+    
+} 
