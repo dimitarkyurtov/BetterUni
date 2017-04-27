@@ -7073,3 +7073,8 @@ div.forus {
     height: 100px;
     
 } 
+div.site-footer {
+  position: absolute;
+  top:90%;
+  right:10%
+}
