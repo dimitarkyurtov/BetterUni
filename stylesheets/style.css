@@ -7078,3 +7078,7 @@ div.site-footer {
   top:90%;
   right:10%
 }
+div.comment-author{
+  position: absolute;
+  right:5%;
+}
